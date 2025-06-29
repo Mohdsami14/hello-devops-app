@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: hello-devops-app
+    env: docker
+    plan: free
+    branch: main
+    repo: https://github.com/Mohdsami14/hello-devops-app
