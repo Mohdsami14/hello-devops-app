@@ -8,8 +8,13 @@
 <body>
   <div class="container">
     <h1>Hello DevOps World! 🚀</h1>
-    <p>Welcome to your first DevOps-enabled Node.js app.</p>
+
+    <form action="/greet" method="POST">
+      <input type="text" name="username" placeholder="Enter your name" required />
+      <button type="submit">Say Hello</button>
+    </form>
+
     <p>Status: <span class="status">Running ✅</span></p>
   </div>
-</body>
+</body>  
 </html>
